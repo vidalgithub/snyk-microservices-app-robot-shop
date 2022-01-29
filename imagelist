@@ -1,0 +1,12 @@
+purpledobie/rs-web:2.1.0
+purpledobie/rs-dispatch:2.1.0
+purpledobie/rs-payment:2.1.0
+purpledobie/rs-ratings:2.1.0
+purpledobie/rs-shipping:2.1.0
+purpledobie/rs-mysql-db:2.1.0
+purpledobie/rs-cart:2.1.0
+purpledobie/rs-user:2.1.0
+purpledobie/rs-catalogue:2.1.0
+purpledobie/rs-mongodb:2.1.0
+redis:6.2-alpine
+rabbitmq:3.8-management-alpine
