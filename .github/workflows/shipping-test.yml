@@ -2,7 +2,7 @@ name: Sample GH Action to test the Shipping/pom.xml
 on:
   push:
     branches:
-      - 'main':
+      - 'main'
     paths:
       - 'shipping'
 
