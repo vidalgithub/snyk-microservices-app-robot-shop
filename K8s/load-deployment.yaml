@@ -20,12 +20,12 @@ spec:
           - name: HOST
             value: "http://web:8080/"
           - name: NUM_CLIENTS
-            value: "15"
+            value: "5"
           - name: SILENT
             value: "1"
           - name: ERROR
             value: "1"
-        image: robotshop/rs-load:latest
+        image: purpledobie/rs-load:latest
         resources:
           limits:
             cpu: 200m

@@ -4,3 +4,4 @@
 vendor/
 Gopkg.lock
 .dccache
+.idea/

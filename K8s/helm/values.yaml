@@ -1,7 +1,7 @@
 # Registry and rpository for Docker images
 # Default is docker/robotshop/image:latest
 image:
-  repo: robotshop
+  repo: purpledobie
   version: latest
   pullPolicy: IfNotPresent
 
