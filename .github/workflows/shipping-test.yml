@@ -1,10 +1,6 @@
 name: Sample GH Action to test the Shipping/pom.xml
 on:
   push:
-    branches:
-      - 'main'
-    paths:
-      - 'shipping'
 
 jobs:
   security:
@@ -17,7 +13,7 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          args: --sarif-file-output=snyk.sarif --severity-threshold=high --fail-on=high
+          args: ./shipping/ --sarif-file-output=snyk.sarif --severity-threshold=high --fail-on=high
       - name: Upload result to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v1
         with:
